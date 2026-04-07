@@ -13,11 +13,19 @@
   "mixins": [
     "${mod_id}.mixins.json"
   ],
+  "entrypoints": {
+    "main": [
+      "xyz.breadloaf.forgetmechunk.SmoothChunks"
+    ],
+    "modmenu": [
+      "xyz.breadloaf.forgetmechunk.SmoothChunksModMenu"
+    ]
+  },
   "contact": {
 
   },
   "depends": {
     "minecraft": "${minecraft_dependency}",
-    "java": ">=17"
+    "java": ">=21"
   }
 }
